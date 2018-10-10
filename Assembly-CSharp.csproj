@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\orbmanager.cs" />
+     <Compile Include="Assets\TempleManager.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>

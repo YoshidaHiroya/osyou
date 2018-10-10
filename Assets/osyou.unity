@@ -563,6 +563,54 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!1 &1137031843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1137031845}
+  - component: {fileID: 1137031844}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1137031844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1137031843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b2661bbc4c9649c9b9bd8065b4d971a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orbPrefab: {fileID: 1219937289309430, guid: 55f432db5d20e4c43a50b63581f459b8, type: 2}
+  smokePrefab: {fileID: 1886025007247460, guid: 95941db6a1dda4814b5526d813b82aaa,
+    type: 2}
+  kusudamaPrefab: {fileID: 1221533774276440, guid: 323dca25a74584a54b6923bf5760116c,
+    type: 2}
+  canvasGame: {fileID: 1784682283}
+  textScore: {fileID: 613549935}
+  ImageTemple: {fileID: 1810281231}
+--- !u!4 &1137031845
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1137031843}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 315, y: 620, z: 10.796997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1309407506
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,6 +880,7 @@ GameObject:
   - component: {fileID: 1810281232}
   - component: {fileID: 1810281234}
   - component: {fileID: 1810281233}
+  - component: {fileID: 1810281235}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -891,6 +940,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1810281231}
+--- !u!114 &1810281235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1810281231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48f9c79662e444ed8a76016bf525d70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  templePicture:
+  - {fileID: 21300000, guid: e055e2197997740a49f72455fa821337, type: 3}
+  - {fileID: 21300000, guid: a74a6d70d62b2409d9e57feec54ea6c2, type: 3}
+  - {fileID: 21300000, guid: 1db578620d8b6410bacdccbfa4dd5a1c, type: 3}
 --- !u!1 &2144040266
 GameObject:
   m_ObjectHideFlags: 0
